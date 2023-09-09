@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./header/index.js"></script>
+    <script defer src="./cards/index.js"></script>
+    <script defer src="./home/home.js"></script>
+    <script defer src="./footer/index.js"></script>
+    <link rel="stylesheet" href="./home/home.css" />
+    <link rel="stylesheet" href="./header/index.css" />
+    <script defer src="form.js"></script>
+    <link rel="stylesheet" href="./cards/index.css" />
+    <link rel="stylesheet" href="./footer/index.css" />
+
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Phudu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo-02.jpg" type="image/x-icon" />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <div class="container-header"></div>
+    <section class="home-container"></section>
+
+    <section class="about-me">
+      <div class="about-me__text">
+        <h2 class="soyLeo title">Leandro Reyes</h2>
+        <p class="about-me__description">
+          Estudiante en proceso de aprendizaje en desarrollo web, tengo
+          conocimientos en HTML, CSS y Javascript, por el momento... Me interesa
+          trabajar en el backend y en frontend, ya que disfruto de ambos
+          aspectos del desarrollo.
+        </p>
+      </div>
+
+      <img
+        src="Anotación 2023-09-03 152452-PhotoRoom.png-PhotoRoom.png"
+        alt="image-me"
+        class="about-me__img-me"
+      />
+    </section>
+    <div class="container-cards"></div>
+    <section class="form">
+      <div class="my-form">
+        <h2 class="title-form soyLeo">Escribeme</h2>
+        <form class="formulario">
+          <label for="nombre">Nombre:</label>
+          <input
+            class="form__input-nombre"
+            placeholder=" Tu nombre"
+            type="text"
+            id="nombre"
+            name="nombre"
+            required
+          />
+          <label for="Email">Email:</label>
+          <input
+            class="form__input-email"
+            placeholder=" Ejemplo@gmail.com"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+          <label for="textarea">Mensaje:</label>
+          <textarea
+            name="textarea"
+            id=""
+            cols="30"
+            rows="10"
+            class="form__textarea"
+          ></textarea>
+
+          <button type="submit" class="form__button">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <div class="container-footer"></div>
+  </body>
+</html>

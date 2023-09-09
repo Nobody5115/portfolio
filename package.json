@@ -1,0 +1,11 @@
+{
+  "name": "desafio-consigna",
+  "version": "1.0.0",
+  "description": "post",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch aplication.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
