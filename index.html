@@ -7,6 +7,7 @@
     <script defer src="./cards/index.js"></script>
     <script defer src="./home/home.js"></script>
     <script defer src="cards/cards.js"></script>
+    <script defer src="./form/form.js"></script>
     <script defer src="./footer/index.js"></script>
     <script defer src="form.js"></script>
     <script defer src="index.js"></script>
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="./header/index.css" />
     <link rel="stylesheet" href="./footer/index.css" />
     <link rel="stylesheet" href="./home/home.css" />
+    <link rel="stylesheet" href="./form/form.css" />
     <link rel="stylesheet" href="./cards/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,41 +49,7 @@
       />
     </section>
     <div class="container-cards"></div>
-    <section class="form">
-      <div class="my-form">
-        <h2 class="title-form soyLeo">Escribeme</h2>
-        <form class="formulario">
-          <label for="nombre">Nombre:</label>
-          <input
-            class="form__input-nombre"
-            placeholder=" Tu nombre"
-            type="text"
-            id="nombre"
-            name="nombre"
-            required
-          />
-          <label for="Email">Email:</label>
-          <input
-            class="form__input-email"
-            placeholder=" Ejemplo@gmail.com"
-            type="email"
-            id="email"
-            name="email"
-            required
-          />
-          <label for="textarea">Mensaje:</label>
-          <textarea
-            name="textarea"
-            id=""
-            cols="30"
-            rows="10"
-            class="form__textarea"
-          ></textarea>
-
-          <button type="submit" class="form__button">Enviar</button>
-        </form>
-      </div>
-    </section>
+    <section class="container-form"></section>
     <div class="container-footer"></div>
   </body>
 </html>

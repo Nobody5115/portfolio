@@ -11,13 +11,13 @@ function footer(el) {
         />
       </div>
       <div class="links">
-        <a href="" class="a-text"
+        <a href="./index.html" class="a-text"
           ><img class="footer__a-logo" src="./footer/home.svg" alt="" />Home</a
         >
         <a href="./servicios.html" class="a-text"
           ><img class="footer__a-logo" src="./footer/user.svg" alt="" />Servicios</a
         >
-        <a href="" class="a-text"
+        <a href="./contactos.html" class="a-text"
           ><img class="footer__a-logo" src="./footer/phone.svg" alt="" />Contacto</a
         >
       </div>
