@@ -13,7 +13,7 @@ function agregarItem(params = {}) {
 function info() {
   const SPACE_ID = "8xmknzuz0uyo";
   const ACCESS_TOKEN = "qO9AEd9gYvOD1DiTTTNPSQy_n3SLxDTaZ96Uy7-x9lQ";
-  const CONTENT_TYPE = "trabajos";
+  const CONTENT_TYPE = "services";
 
   return fetch(
     `https://cdn.contentful.com/spaces/${SPACE_ID}/entries?access_token=${ACCESS_TOKEN}&content_type=${CONTENT_TYPE}`
@@ -37,10 +37,10 @@ function info() {
       return collection;
     });
 }
-function main() {
-  cards(document.querySelector(".container-cards-portfolio"));
 
+function main() {
   info().then((response) => {
+    console.log(response);
     for (r of response) {
       agregarItem(r);
     }

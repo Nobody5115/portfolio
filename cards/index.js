@@ -1,4 +1,5 @@
 function card(el) {
+  console.log(el);
   const componentEl = document.createElement("div");
   componentEl.innerHTML = `
    <section class="services">
