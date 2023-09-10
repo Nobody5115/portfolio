@@ -1,6 +1,6 @@
 body{
-    visibility: visible;
 }
+
 .conteiner-cards {
     display: flex;
     flex-direction: column;
